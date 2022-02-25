@@ -1,0 +1,29 @@
+{
+  "name": "type-challenges",
+  "private": true,
+  "version": "1.0.0",
+  "repository": "https://github.com/zhenyuWang/type-challenges.git",
+  "author": "running snail <13641039885@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsd"
+  },
+  "bugs": {
+    "url": "https://github.com/zhenyuWang/type-challenges/issues"
+  },
+  "homepage": "https://github.com/zhenyuWang/type-challenges#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "tsd": "^0.13.1"
+  },
+  "tsd": {
+    "directory": "test-dts",
+    "compilerOptions": {
+      "strict": false,
+      "lib": [
+        "esnext",
+        "dom"
+      ]
+    }
+  }
+}
